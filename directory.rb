@@ -9,3 +9,6 @@ puts "Chris P Bird"
 puts "Liz Anier"
 puts "Karl Hickbread"
 puts "Mark N Spencer"
+print "Overall, we have "
+print 9
+puts " crazy students"
