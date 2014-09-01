@@ -10,11 +10,22 @@ students = [
 	"Karl Hickbread",
 	"Mark N. Spencer"
 ]
-# and then print them
-puts "The potential students of my cohort sept14"
-puts "-------------"
-students.each do |student|
-	 puts students
+
+def print_header
+    puts "The potential students of my cohort sept14"
+    puts "-------------"
 end
-# finally, we print the total
-puts "Overall, we have #{students.length} crazy students"
+
+def print(names)
+     names.each do |name|
+	  puts name
+	 end
+end
+
+def print_footer(names)
+    puts "Overall, we have #{names.length} crazy students"
+end
+#nothing happens until we call the methods
+print_header
+print(students)
+print_footer(students)
