@@ -1,15 +1,20 @@
-student_count = 9
-#first we print the list of students
-puts "The potential names of my fellow students ha"
-puts "--------------------------------------"
-puts "Toby Lerone"
-puts "Mal Teaser"
-puts "Anette Kurtain"
-puts "Zultan Pepper"
-puts "Chris Peacock"
-puts "Chris P Bird"
-puts "Liz Anier"
-puts "Karl Hickbread"
-puts "Mark N. Spencer"
-#finally, we print the list of students
-puts "Overall, we have #{student_count} great students"
+# let's put al the students into an array
+students = [	
+	"Toby Lerone",
+	"Mal Teaser",
+	"Anette Kurtain",
+	"Zultan Pepper",
+	"Chris Peacock",
+	"Chris P Bird",
+	"Liz Anier",
+	"Karl Hickbread",
+	"Mark N. Spencer"
+]
+# and then print them
+puts "The potential students of my cohort sept14"
+puts "-------------"
+students.each do |student|
+	 puts students
+end
+# finally, we print the total
+puts "Overall, we have #{students.length} crazy students"
