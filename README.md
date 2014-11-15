@@ -18,13 +18,14 @@ Run the script:
 $ ruby student-directory/directory.rb
 ```
 
-You should see the following:
-```shell
-Enter the menu number of the function you want to access.
-1. Input the students
-2. Show the students
-3. Save the list
-4. Load an existing list
-9. Exit
-```
-To input the students, press "1" and then Enter. For other functions, press the corresponding number of the menu item.
+#####To Do List
+- [x] List the students
+- [x] List the students' Cohort
+- [ ] List the students' age
+- [ ] List the students' hobby
+- [ ] List the students' country
+
+###### Technologies used:
+
+- Ruby
+
