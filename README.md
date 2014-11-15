@@ -1,4 +1,4 @@
-#h2 - This project is still under development
+## - This project is still under development
 
 Student Directory
 =================
